@@ -1,5 +1,5 @@
 # TWRP Samsung Galaxy A50s
-![Galaxy A50s](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50s.jpg "Galaxy A50s")
+
 # How-to install dependencies
 ```
 # How-to clone source and device tree:
@@ -33,6 +33,7 @@ see recovery.img
 
 Device Tree Made by topser9
 ```
+![Galaxy A50s](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50s.jpg "Galaxy A50s")
 # Specs
 |---------------------------------------------------------------------------------|
 |      Component        |          Specification                                  |
