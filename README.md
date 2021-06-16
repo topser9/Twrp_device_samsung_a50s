@@ -1,6 +1,6 @@
 # TWRP Samsung Galaxy A50s
 
-# How-to install dependencies
+# How to compile it:
 ```
 # How-to clone source and device tree:
 
