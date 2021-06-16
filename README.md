@@ -4,28 +4,28 @@
 ```
 # How-to clone source and device tree:
 
-mkdir -p ~/twrp && cd ~/twrp
+$ mkdir -p ~/twrp && cd ~/twrp
 
-repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+$ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 ```
 # Clone a50s repo
 ```
-git clone https://github.com/topser9/twrp_device_samsung_a50s.git device/samsung/a50s
+$ git clone https://github.com/topser9/twrp_device_samsung_a50s.git device/samsung/a50s
 ```
 Sync
 ```
-repo sync
+$ repo sync
 ```
 # How-to build:
 ```
-export ALLOW_MISSING_DEPENDENCIES=true
-. build/envsetup.sh
-lunch omni_a50s-eng
-mka recoveryimage
+$ export ALLOW_MISSING_DEPENDENCIES=true
+$  build/envsetup.sh
+$ lunch omni_a50s-eng
+$ mka recoveryimage
 ```
 ## How to find the image built
 ```
-`cd /out/target/product/a50s`
+$ cd /out/target/product/a50s`
 ```
 see recovery.img
 ```
