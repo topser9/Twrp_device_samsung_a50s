@@ -1,9 +1,9 @@
 # TWRP Samsung Galaxy A50s
 
 # How to compile it:
-```
-# How-to clone source and device tree:
 
+# How-to clone source and device tree:
+```
 $ mkdir -p ~/twrp && cd ~/twrp
 
 $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
@@ -19,7 +19,7 @@ $ repo sync
 # How-to build:
 ```
 $ export ALLOW_MISSING_DEPENDENCIES=true
-$  build/envsetup.sh
+$ . build/envsetup.sh
 $ lunch omni_a50s-eng
 $ mka recoveryimage
 ```
